@@ -33,8 +33,11 @@ print("Distance is: {:.2f}".format(dist(a, b)))
 
 
 # Write a function `print_tuple` that prints all the values in a tuple
-
+coordinates = (4, 5)
+def print_tuple(tuple):
+    print(tuple)
 # YOUR CODE HERE
+
 
 t = (1, 2, 5, 7, 99)
 print_tuple(t)  # Prints 1 2 5 7 99, one per line
